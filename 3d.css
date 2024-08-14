@@ -1,0 +1,86 @@
+#canvas {
+    position: absolute;
+    left: 28%; /* Ajusta esta cantidad según sea necesario */
+    border: 1px solid black; /* Solo para visualización */
+    margin-top: -40%;
+   
+}
+
+/* Tabla personalizada */
+table {
+    width: 100%;
+    overflow: scroll;
+  }
+  
+  td {
+    width: 25%;
+  }
+  
+  #tabla {
+      border: 1px solid black; /* Bordes de 1px de grosor y color negro */
+      text-align: left; /* Alineación del texto a la izquierda */
+      border-radius: 15px;
+  }
+  
+  .custom-table {
+      display: table;
+      margin-top: 20px;
+      border-color: black;
+  }
+  
+  .custom-row {
+      display: table-row;
+  }
+  
+  .custom-cell {
+      display: table-cell;
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .custom-cell img {
+      width: 150px;
+      height: 120px;
+  }
+  
+  .custom-cell button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-family: poppins;
+      background-color: lightblue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .scrollable-container {
+      width: 400px; /* Ajusta el tamaño según tus necesidades */
+      height: 600px; /* Ajusta el tamaño según tus necesidades */
+      overflow: scroll;
+      overflow-y: auto; /* Permite el desplazamiento vertical */
+      overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+      margin-left: 15px;
+      border: 1px solid #ccc;
+      border-radius: 20px; /* Redondez de las esquinas del contenedor */
+  }
+  
+  .custom-table {
+      width: 100%;
+  }
+  
+  .custom-row {
+      display: flex;
+  }
+  
+  .custom-cell {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+  }
+  
+  #seccion{
+    margin-left: 75px;
+    font-family: poppins;
+    font-weight: 300;
+  }
